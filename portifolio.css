@@ -1,0 +1,165 @@
+body {
+    background-color: rgba(255, 192, 203, 0.575);
+}
+
+.main{
+    border: 1px solid  rgb(51, 48, 48);
+    width: 150vh; 
+    height: 98vh;
+    margin-left: 13%;
+}
+
+.lateral-esquerda{
+    background-color: rgba(30, 24, 53, 0.781);
+    width: 30vh;
+    height: 66vh;
+    float: left;
+}
+
+.apresentacao{
+    background-color: rgba(38, 30, 80, 0.623);
+    width: 150vh;
+    height: 32vh;
+    float: right;
+}
+
+.sobre{
+    text-align: center;
+    background-color: rgba(39, 30, 70, 0.774);
+    width: 120vh;
+    height: 34vh;
+    float: right;
+}
+
+.conclusao{
+    background-color: rgb(23, 17, 48);
+    width: 120vh;
+    height: 32vh;
+    float: right;
+}
+
+/* tratamento de texto */
+
+.mensagem-apresentacao{
+    color: white;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+h1, h5, h2{
+    color: white;
+    margin: 0;
+}
+
+h2{
+    color: white;
+    margin-top: 1%;
+    text-align: center;
+}
+
+/* tratamento de imagem */
+
+.perfil{
+    border-radius: 50%;
+    float: right;
+    width: 23%;
+    height: 90%;
+    margin-top: 5px;
+    margin-right: 8px;
+}
+
+.perfil-sobre{ 
+    display: block;
+    float: left;
+    width: 23%;
+    height: 80%;
+    margin-top: 22px;
+    margin-left: 8px;
+}
+
+.pesquisa{
+    margin-top: 5%;
+    width: 68%;
+    height: 60%;
+}
+
+.link-pesquuisar{
+    background-color: white;
+    border: 1px solid gray;
+    width: 10%;
+    height: 10%;
+    margin-left: 58%;
+    margin-top: 1%;
+}
+
+.java-codigo{
+    background-color: white;
+    border: 1px solid gray;
+    width: 25%;
+    height: 60%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.cpp-codigo{
+    background-color: white;
+    border: 1px solid gray;
+    width: 25%;
+    height: 60%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.nestjs-codigo{
+    background-color: white;
+    border: 1px solid gray;
+    width: 25%;
+    height: 60%;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+
+.icones{
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    margin-top: 10%;
+    margin-left: 2%;
+    border: 2px solid blue;
+}
+
+.lin-java{
+    border: 2px solid rgb(0, 217, 255);
+    width: 70%;
+    margin-top: 0%;
+    margin-left: 2%;
+}
+
+.lin-cpp{
+    border: 2px solid rgb(0, 217, 255);
+    width: 30%;
+    margin-top: 0%;
+    margin-left: 2%;
+}
+
+.lin-csharp{
+    border: 2px solid rgb(0, 217, 255);
+    width: 50%;
+    margin-top: 0%;
+    margin-left: 2%;
+}
+
+.lin-js{
+    border: 2px solid rgb(0, 217, 255);
+    width: 40%;
+    margin-top: 0%;
+    margin-left: 2%;
+}
+
+.lin-sql{
+    border: 2px solid rgb(0, 217, 255);
+    width: 50%;
+    margin-top: 0%;
+    margin-left: 2%;
+}
